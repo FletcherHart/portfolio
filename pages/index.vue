@@ -1,6 +1,7 @@
 <template>
-  <div class="my-10">
+  <div class="mb-10">
     <Header />
+    <Details />
   </div>
 </template>
 
@@ -14,6 +15,10 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+html {
+  background-color: aliceblue;
+  z-index: -50;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
