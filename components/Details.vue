@@ -1,44 +1,94 @@
 <template>
-  <section class="relative flex justify-center h-80">
+  <section>
+    <div class="flex justify-center">
+      <div
+        class="grid md:grid-cols-3 grid-cols-1 lg:gap-10 gap-5 -mt-10 sm:mx-10"
+      >
+        <div class="card">
+          <img
+            class="self-center"
+            src="/icons/043-target.svg"
+            width="75"
+            height="75"
+          />
+          <div>
+            <h2 class="text-center text-xl">Content</h2>
+            <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="self-center"
+            src="/icons/043-target.svg"
+            width="75"
+            height="75"
+          />
+          <div>
+            <h2 class="text-center text-xl">Content</h2>
+            <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="self-center"
+            src="/icons/043-target.svg"
+            width="75"
+            height="75"
+          />
+          <div>
+            <h2 class="text-center text-xl">Content</h2>
+            <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div
-      class="grid sm:grid-cols-3 grid-cols-1 gap-10 absolute -top-10 sm:mx-20"
+      class="
+        flex
+        sm:flex-row
+        flex-col
+        sm:gap-20
+        gap-10
+        sm:mx-20
+        mx-10
+        mt-20
+        items-center
+        justify-center
+      "
     >
-      <div class="card">
-        <img
-          class="self-center"
-          src="/icons/043-target.svg"
-          width="75"
-          height="75"
-        />
-        <div>
-          <h2 class="text-center text-xl">Content</h2>
-          <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
+      <img src="/icons/038-creativity.svg" width="200" height="200" />
+      <div>
+        <h2 class="text-xl">Your Goals</h2>
+        <div class="max-w-lg">
+          Quisque feugiat finibus magna, in finibus velit varius eu. Vivamus nec
+          sapien risus. Donec blandit felis et interdum placerat. Aliquam vitae
+          est sit amet ante convallis iaculis convallis vel dolor.
         </div>
       </div>
-      <div class="card">
-        <img
-          class="self-center"
-          src="/icons/043-target.svg"
-          width="75"
-          height="75"
-        />
-        <div>
-          <h2 class="text-center text-xl">Content</h2>
-          <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
+    </div>
+    <div
+      class="
+        flex
+        sm:flex-row
+        flex-col
+        sm:gap-20
+        gap-10
+        sm:mx-20
+        mx-10
+        mt-20
+        items-center
+        justify-center
+      "
+    >
+      <div>
+        <h2 class="text-xl">Making a Plan</h2>
+        <div class="max-w-lg">
+          Quisque feugiat finibus magna, in finibus velit varius eu. Vivamus nec
+          sapien risus. Donec blandit felis et interdum placerat. Aliquam vitae
+          est sit amet ante convallis iaculis convallis vel dolor.
         </div>
       </div>
-      <div class="card">
-        <img
-          class="self-center"
-          src="/icons/043-target.svg"
-          width="75"
-          height="75"
-        />
-        <div>
-          <h2 class="text-center text-xl">Content</h2>
-          <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
-        </div>
-      </div>
+      <img src="/icons/040-timer.svg" width="200" height="200" />
     </div>
   </section>
 </template>
@@ -48,8 +98,9 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  max-width: 20rem;
   background-color: aliceblue;
-  padding: 0.5rem;
+  padding: 1.5rem;
   border-radius: 0.25rem;
   justify-content: center;
 
