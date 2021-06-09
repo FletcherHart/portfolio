@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer-background flex flex-col justify-center text-white h-60"
+    class="footer-background flex flex-col gap-5 justify-center text-white h-60"
   >
     <div class="flex text-black text-2xl justify-center gap-5">
       <div class="p-2 w-10 h-10 flex items-center social">
@@ -19,6 +19,7 @@
         </a>
       </div>
     </div>
+    <div class="text-center">Copyright © 2021 - Blue Dream</div>
   </footer>
 </template>
 

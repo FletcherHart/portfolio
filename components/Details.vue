@@ -14,36 +14,21 @@
         "
       >
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i class="bx bx-coin-stack text-6xl text-blue-700 text-center"></i>
           <div>
             <h2 class="text-center text-xl">Content</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
           </div>
         </div>
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i class="bx bx-medal text-6xl text-green-700 text-center"></i>
           <div>
             <h2 class="text-center text-xl">Content</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
           </div>
         </div>
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i class="bx bx-meteor text-6xl text-red-700 text-center"></i>
           <div>
             <h2 class="text-center text-xl">Content</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
@@ -65,7 +50,10 @@
         justify-center
       "
     >
-      <img src="/icons/038-creativity.svg" width="200" height="200" />
+      <i
+        class="bx bx-bulb text-yellow-400 text-center"
+        style="font-size: 200px"
+      ></i>
       <div>
         <h2 class="text-xl">Your Goals</h2>
         <div class="max-w-lg">
@@ -97,7 +85,10 @@
           est sit amet ante convallis iaculis convallis vel dolor.
         </div>
       </div>
-      <img src="/icons/040-timer.svg" width="200" height="200" />
+      <i
+        class="bx bx-timer text-red-400 text-center"
+        style="font-size: 200px"
+      ></i>
     </div>
   </section>
 </template>

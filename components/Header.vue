@@ -17,7 +17,10 @@
       "
     >
       <div class="flex">
-        <Logo />
+        <i
+          class="bx bx-cube text-green-500 text-center"
+          style="font-size: 50px"
+        ></i>
         <div class="flex items-center">
           <a
             href="#welcome"

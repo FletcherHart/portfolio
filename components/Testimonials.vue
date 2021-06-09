@@ -25,38 +25,38 @@
         class="grid md:grid-cols-3 grid-cols-1 lg:gap-10 gap-5 mt-20 sm:mx-10"
       >
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i
+            class="
+              bx bx-message-square-detail
+              text-6xl text-blue-700 text-center
+            "
+          ></i>
           <div>
-            <h2 class="text-center text-xl">Content</h2>
+            <h2 class="text-center text-xl">Loved It</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
           </div>
         </div>
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i
+            class="
+              bx bx-message-square-detail
+              text-6xl text-green-700 text-center
+            "
+          ></i>
           <div>
-            <h2 class="text-center text-xl">Content</h2>
+            <h2 class="text-center text-xl">Great Service</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
           </div>
         </div>
         <div class="card">
-          <img
-            class="self-center"
-            src="/icons/043-target.svg"
-            width="75"
-            height="75"
-          />
+          <i
+            class="
+              bx bx-message-square-detail
+              text-6xl text-red-700 text-center
+            "
+          ></i>
           <div>
-            <h2 class="text-center text-xl">Content</h2>
+            <h2 class="text-center text-xl">Wonderful Team</h2>
             <div class="p-2 text-center">Donec posuere nec elit sed porta.</div>
           </div>
         </div>
