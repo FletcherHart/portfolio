@@ -1,5 +1,5 @@
 <template>
-  <div class="my-20 flex flex-col justify-center items-center">
+  <section class="my-40 flex flex-col justify-center items-center">
     <div class="flex flex-col text-center w-4/5">
       <h2 class="text-2xl pb-10">Contact Us</h2>
       <div class="text-lg">
@@ -46,5 +46,5 @@
         </button>
       </form>
     </div>
-  </div>
+  </section>
 </template>

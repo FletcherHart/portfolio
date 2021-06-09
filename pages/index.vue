@@ -1,7 +1,11 @@
 <template>
   <div>
     <Header />
+    <div id="details"></div>
     <Details />
+    <div id="testimonials"></div>
+    <Testimonials />
+    <div id="contact"></div>
     <Contact />
     <Footer />
   </div>

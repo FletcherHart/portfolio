@@ -1,17 +1,28 @@
 <template>
   <section>
-    <div class="flex justify-center">
+    <!-- Testimonials -->
+    <div
+      class="
+        reviews
+        flex flex-col
+        justify-center
+        items-center
+        my-10
+        relative
+        lg:px-20
+        py-20
+      "
+    >
+      <div class="flex flex-col w-5/6 text-center">
+        <h1 class="text-white text-2xl">Testemonials</h1>
+        <div class="text-white text-xl">
+          Nullam facilisis finibus odio, a pellentesque urna pellentesque sit
+          amet. In ultrices, nisl id sagittis interdum, ipsum lacus viverra
+          arcu, a imperdiet sem metus in leo.
+        </div>
+      </div>
       <div
-        class="
-          grid
-          md:grid-cols-3
-          grid-cols-1
-          lg:gap-10
-          gap-5
-          -mt-10
-          sm:mx-10
-          z-10
-        "
+        class="grid md:grid-cols-3 grid-cols-1 lg:gap-10 gap-5 mt-20 sm:mx-10"
       >
         <div class="card">
           <img
@@ -50,54 +61,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="
-        flex
-        sm:flex-row
-        flex-col
-        sm:gap-20
-        gap-10
-        sm:mx-20
-        mx-10
-        mt-20
-        items-center
-        justify-center
-      "
-    >
-      <img src="/icons/038-creativity.svg" width="200" height="200" />
-      <div>
-        <h2 class="text-xl">Your Goals</h2>
-        <div class="max-w-lg">
-          Quisque feugiat finibus magna, in finibus velit varius eu. Vivamus nec
-          sapien risus. Donec blandit felis et interdum placerat. Aliquam vitae
-          est sit amet ante convallis iaculis convallis vel dolor.
-        </div>
-      </div>
-    </div>
-    <div
-      class="
-        flex
-        sm:flex-row
-        flex-col
-        sm:gap-20
-        gap-10
-        sm:mx-20
-        mx-10
-        mt-20
-        items-center
-        justify-center
-      "
-    >
-      <div>
-        <h2 class="text-xl">Making a Plan</h2>
-        <div class="max-w-lg">
-          Quisque feugiat finibus magna, in finibus velit varius eu. Vivamus nec
-          sapien risus. Donec blandit felis et interdum placerat. Aliquam vitae
-          est sit amet ante convallis iaculis convallis vel dolor.
-        </div>
-      </div>
-      <img src="/icons/040-timer.svg" width="200" height="200" />
+      <div class="section-color"></div>
     </div>
   </section>
 </template>
@@ -126,7 +90,7 @@
   background-size: cover;
 }
 
-.header-cover {
+.section-color {
   position: absolute;
   top: 0;
   height: 100%;
