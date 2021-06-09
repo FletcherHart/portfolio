@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10">
+  <div>
     <Header />
     <Details />
     <Contact />
