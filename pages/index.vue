@@ -2,6 +2,7 @@
   <div class="mb-10">
     <Header />
     <Details />
+    <Contact />
   </div>
 </template>
 
