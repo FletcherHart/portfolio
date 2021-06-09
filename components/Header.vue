@@ -19,7 +19,12 @@
       <div class="flex">
         <Logo />
         <div class="flex items-center">
-          <div class="text-white bg-green-600 px-2 py-2 rounded-xl">Brand</div>
+          <a
+            href="#"
+            class="text-green-700 text-xl px-2 py-2 rounded-xl font-semibold"
+          >
+            Blue Dream
+          </a>
         </div>
       </div>
       <nav class="sm:flex gap-5 items-center hidden">
