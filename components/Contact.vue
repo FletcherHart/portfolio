@@ -38,6 +38,12 @@
           rows="5"
           class="p-3 rounded-xl shadow resize-none"
         ></textarea>
+        <button
+          type="submit"
+          class="rounded-full bg-blue-600 text-white p-4 max-w-max"
+        >
+          Submit Message
+        </button>
       </form>
     </div>
   </div>
