@@ -16,7 +16,7 @@
           amet.
         </div>
       </div>
-      <form class="flex flex-col gap-5">
+      <form class="flex flex-col gap-5 md:w-2/3">
         <div class="flex gap-5">
           <input
             id="name"
