@@ -2,7 +2,16 @@
   <section>
     <div class="flex justify-center">
       <div
-        class="grid md:grid-cols-3 grid-cols-1 lg:gap-10 gap-5 -mt-10 sm:mx-10"
+        class="
+          grid
+          md:grid-cols-3
+          grid-cols-1
+          lg:gap-10
+          gap-5
+          -mt-10
+          sm:mx-10
+          z-10
+        "
       >
         <div class="card">
           <img

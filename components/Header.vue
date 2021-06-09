@@ -28,7 +28,7 @@
         <a href="#">Link 3</a>
       </nav>
     </div>
-    <div class="my-10 flex items-center justify-center">
+    <div class="my-10 flex items-center justify-center z-10">
       <div class="flex flex-col w-5/6 text-center">
         <h1 class="text-white text-2xl">Lorem Ipsum</h1>
         <div class="text-white text-xl">
@@ -51,7 +51,6 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40rem;
-  z-index: -2;
 }
 
 .header-cover {
@@ -60,7 +59,7 @@
   height: 100%;
   width: 100%;
   opacity: 60%;
-  z-index: -1;
+  z-index: 1;
   background: linear-gradient(
     100deg,
     rgba(2, 39, 147, 1) 0%,
