@@ -67,22 +67,7 @@
 </template>
 
 <style scoped>
-.card {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  max-width: 20rem;
-  background-color: rgb(255, 255, 255);
-  padding: 1.5rem;
-  border-radius: 0.25rem;
-  justify-content: center;
-
-  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
+@import '@/assets/css/styles.css';
 
 .reviews {
   background: url('/people.jpg');
