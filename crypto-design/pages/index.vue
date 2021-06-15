@@ -1,7 +1,8 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col bg-gray-100">
     <Navbar />
     <Banner />
+    <About />
   </div>
 </template>
 
