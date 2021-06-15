@@ -1,5 +1,5 @@
 <template>
-  <header id="welcome" class="w-full flex justify-center">
+  <header id="welcome" class="w-full flex justify-center mb-10">
     <div class="bg-banner flex items-center justify-center">
       <form
         class="

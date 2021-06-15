@@ -1,5 +1,8 @@
 <template>
-  <section class="flex items-center justify-center">
+  <section class="flex flex-col items-center justify-center my-10">
+    <h2 class="text-5xl text-blue-800 mb-5 font-bold">
+      Everything You Need to Know
+    </h2>
     <div class="flex flex-col lg:flex-row gap-10 py-10 items-stretch">
       <Card
         title="Mining & You"

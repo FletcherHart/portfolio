@@ -1,7 +1,7 @@
 <template>
   <section class="my-20 flex flex-col justify-center items-center">
     <div class="flex flex-col text-center w-4/5">
-      <h2 class="text-2xl pb-10">Contact Us</h2>
+      <h2 class="text-5xl pb-10">Contact Us</h2>
       <div class="text-lg">
         Nullam facilisis finibus odio, a pellentesque urna pellentesque sit
         amet. In ultrices, nisl id sagittis interdum, ipsum lacus viverra arcu,
