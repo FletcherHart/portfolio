@@ -1,6 +1,6 @@
 <template>
   <section class="flex items-center justify-center">
-    <div class="flex gap-10 py-10 items-stretch">
+    <div class="flex flex-col lg:flex-row gap-10 py-10 items-stretch">
       <Card
         title="Mining & You"
         description="This is placeholder text. If reusing this design, please replace this text with some content."
