@@ -1,6 +1,8 @@
 <template>
-  <section class="flex flex-col justify-center items-center my-10">
-    <h2 class="text-3xl font-bold text-blue-800">What People Are Saying</h2>
+  <section class="flex flex-col justify-center items-center my-10 px-5">
+    <h2 class="text-3xl font-bold text-blue-800 text-center">
+      What People Are Saying
+    </h2>
     <div class="my-5">
       <div id="tab1" class="flex flex-col tab text-center animate-left">
         <h3 class="text-2xl font-semibold">Vestibulum at molestie leo.</h3>
