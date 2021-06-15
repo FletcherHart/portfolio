@@ -3,6 +3,7 @@
     <Navbar />
     <Banner />
     <About />
+    <Testimonials />
   </div>
 </template>
 
