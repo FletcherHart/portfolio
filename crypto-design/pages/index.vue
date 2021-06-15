@@ -4,6 +4,7 @@
     <Banner />
     <About />
     <Testimonials />
+    <Footer />
   </div>
 </template>
 
