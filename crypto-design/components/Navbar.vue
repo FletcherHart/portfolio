@@ -5,31 +5,65 @@
       bg-bitcoin
       text-gold
       font-semibold
-      flex
       p-2
-      px-10
-      sm:justify-between
-      justify-center
+      sm:px-10
+      justify-between
     "
   >
-    <div class="flex">
-      <i class="bx bx-money text-gold text-center" style="font-size: 50px"></i>
-      <div class="flex items-center">
-        <a
-          href="#welcome"
-          class="text-gold text-xl px-2 py-2 rounded-xl font-semibold"
-        >
-          Crypto Design
-        </a>
+    <div class="flex justify-between">
+      <div class="flex">
+        <i
+          class="bx bx-money text-gold text-center"
+          style="font-size: 50px"
+        ></i>
+        <div class="flex items-center">
+          <a
+            href="#welcome"
+            class="text-gold text-xl px-2 py-2 rounded-xl font-semibold"
+          >
+            Crypto Design
+          </a>
+        </div>
       </div>
+      <div class="sm:flex gap-5 items-center hidden">
+        <a class="header-link" href="#details">About</a>
+        <a class="header-link" href="#testimonials">Testimonials</a>
+        <a class="header-link" href="#contact">Contact</a>
+      </div>
+      <!--Mobiel-->
+      <button class="sm:hidden" @click="open = !open">
+        <i class="bx bx-menu p-2" style="font-size: 50px"></i>
+      </button>
     </div>
-    <div class="sm:flex gap-5 items-center hidden">
+    <div class="gap-5" :class="mobileLinks">
       <a class="header-link" href="#details">About</a>
       <a class="header-link" href="#testimonials">Testimonials</a>
       <a class="header-link" href="#contact">Contact</a>
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      open: false,
+      flex: false,
+      'flex-col': false,
+      hidden: true,
+    }
+  },
+  computed: {
+    mobileLinks() {
+      return {
+        flex: this.open,
+        'flex-col': this.open,
+        hidden: !this.open,
+      }
+    },
+  },
+}
+</script>
 
 <style scoped>
 .bg-bitcoin {
