@@ -55,7 +55,7 @@
 
 <style scoped>
 .header {
-  background: url('/geo.jpg');
+  background: url('~/assets/geo.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 40rem;
