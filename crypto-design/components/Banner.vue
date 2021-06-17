@@ -75,7 +75,6 @@
           </div>
         </div>
       </form>
-      <div class="banner-cover"></div>
     </div>
   </header>
 </template>
@@ -83,20 +82,11 @@
 <style scoped>
 .bg-banner {
   position: relative;
-  background: url('/bitcoin-color.jpg');
+  background: url('~/assets/bitcoin-color.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
   width: 100%;
-}
-
-.banner-cover {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0%;
-  background-color: rgb(22, 0, 117);
 }
 
 .bg-search {
