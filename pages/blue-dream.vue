@@ -116,7 +116,7 @@
         "
       >
         <div class="flex flex-col w-5/6 text-center">
-          <h1 class="text-white text-2xl">Testemonials</h1>
+          <h1 class="text-white text-5xl pb-10">Testemonials</h1>
           <div class="text-white text-xl">
             Nullam facilisis finibus odio, a pellentesque urna pellentesque sit
             amet. In ultrices, nisl id sagittis interdum, ipsum lacus viverra
@@ -172,7 +172,6 @@
         <div class="section-color"></div>
       </div>
     </section>
-    <div id="contact"></div>
     <Contact />
     <Blue-Dream-Footer />
   </div>

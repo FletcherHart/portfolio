@@ -18,7 +18,7 @@
         ></i>
         <div class="flex items-center">
           <a
-            href="#welcome"
+            href="/portfolio"
             class="text-gold text-xl px-2 py-2 rounded-xl font-semibold"
           >
             Crypto Design
@@ -26,9 +26,9 @@
         </div>
       </div>
       <div class="sm:flex gap-5 items-center hidden">
-        <a class="header-link" href="#details">About</a>
-        <a class="header-link" href="#testimonials">Testimonials</a>
-        <a class="header-link" href="#contact">Contact</a>
+        <NuxtLink to="#details" class="header-link">About</NuxtLink>
+        <NuxtLink to="#testimonials" class="header-link">Testimonials</NuxtLink>
+        <NuxtLink to="#contact" class="header-link">Contact</NuxtLink>
       </div>
       <!--Mobiel-->
       <button class="sm:hidden" @click="open = !open">
@@ -36,9 +36,9 @@
       </button>
     </div>
     <div class="gap-5" :class="mobileLinks">
-      <a class="header-link" href="#details">About</a>
-      <a class="header-link" href="#testimonials">Testimonials</a>
-      <a class="header-link" href="#contact">Contact</a>
+      <NuxtLink to="#details" class="header-link">About</NuxtLink>
+      <NuxtLink to="#testimonials" class="header-link">Testimonials</NuxtLink>
+      <NuxtLink to="#contact" class="header-link">Contact</NuxtLink>
     </div>
   </nav>
 </template>

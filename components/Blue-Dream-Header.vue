@@ -23,7 +23,7 @@
         ></i>
         <div class="flex items-center">
           <a
-            href="#welcome"
+            href="/portfolio"
             class="text-green-700 text-xl px-2 py-2 rounded-xl font-semibold"
           >
             Blue Dream
@@ -31,14 +31,14 @@
         </div>
       </div>
       <div class="sm:flex gap-5 items-center hidden">
-        <a href="#details">About</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
+        <NuxtLink to="#details">About</NuxtLink>
+        <NuxtLink to="#testimonials">Testimonials</NuxtLink>
+        <NuxtLink to="#contact">Contact</NuxtLink>
       </div>
     </nav>
     <div class="my-10 flex items-center justify-center z-10">
       <div class="flex flex-col w-5/6 text-center">
-        <h1 class="text-white text-2xl">Lorem Ipsum</h1>
+        <h1 class="text-white text-5xl pb-10">Lorem Ipsum</h1>
         <div class="text-white text-xl">
           Nullam facilisis finibus odio, a pellentesque urna pellentesque sit
           amet. In ultrices, nisl id sagittis interdum, ipsum lacus viverra

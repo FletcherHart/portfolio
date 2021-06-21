@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col bg-gray-100">
     <Navbar />
-    <header id="welcome" class="w-full flex justify-center mb-10">
+    <header class="w-full flex justify-center mb-10">
       <div class="bg-banner flex items-center justify-center">
         <form
           class="
@@ -79,7 +79,10 @@
         </form>
       </div>
     </header>
-    <section class="flex flex-col items-center justify-center my-10">
+    <section
+      id="details"
+      class="flex flex-col items-center justify-center my-10"
+    >
       <h2 class="text-5xl text-blue-800 mb-5 font-bold">
         Everything You Need to Know
       </h2>
@@ -101,7 +104,10 @@
         />
       </div>
     </section>
-    <section class="flex flex-col justify-center items-center my-10 px-5">
+    <section
+      id="testimonials"
+      class="flex flex-col justify-center items-center my-10 px-5"
+    >
       <h2 class="text-5xl font-bold text-blue-800 text-center">
         What People Are Saying
       </h2>
