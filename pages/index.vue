@@ -147,6 +147,10 @@ li {
   color: #d1d1c2;
 }
 
+.social:hover {
+  color: #f76369;
+}
+
 ul {
   display: flex;
   flex-direction: column;
