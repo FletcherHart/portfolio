@@ -23,7 +23,7 @@
         ></i>
         <div class="flex items-center">
           <NuxtLink
-            href="/"
+            to="/"
             class="text-green-700 text-xl px-2 py-2 rounded-xl font-semibold"
           >
             Blue Dream
