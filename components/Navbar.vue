@@ -17,12 +17,12 @@
           style="font-size: 50px"
         ></i>
         <div class="flex items-center">
-          <a
-            href="/portfolio"
+          <NuxtLink
+            to="/"
             class="text-gold text-xl px-2 py-2 rounded-xl font-semibold"
           >
             Crypto Design
-          </a>
+          </NuxtLink>
         </div>
       </div>
       <div class="sm:flex gap-5 items-center hidden">
