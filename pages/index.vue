@@ -15,7 +15,7 @@
         relative
       "
     >
-      <section class="sticky top-10 p-10 bg-dark w-full md:w-max h-2/3">
+      <section class="md:sticky top-10 p-10 bg-dark w-full md:w-max h-2/3">
         <div class="grid grid-cols-1 gap-5">
           <!-- Languages -->
           <div>
@@ -69,14 +69,14 @@
         class="grid grid-cols-1 justify-left items-left text-left gap-10"
       >
         <!-- Blue Dream -->
-        <div class="flex flex-col gap-3 p-10 bg-dark">
+        <div class="flex flex-col gap-3 sm:p-10 p-3 bg-dark">
           <h2 class="text-2xl font-semibold">Blue Dream</h2>
           <a href="./blue-dream" class="max-w-max">
             <img src="~/assets/blue-dream.jpg" width="600" />
           </a>
         </div>
         <!-- Crypto Design -->
-        <div class="flex flex-col gap-3 p-10 bg-dark">
+        <div class="flex flex-col gap-3 sm:p-10 p-3 bg-dark">
           <h2 class="text-2xl font-semibold">Crypto Design</h2>
           <a href="./crypto-design" class="max-w-max">
             <img src="~/assets/crypto-design.jpg" width="600" />
