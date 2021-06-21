@@ -15,52 +15,54 @@
         relative
       "
     >
-      <section class="md:sticky top-10 p-10 bg-dark w-full md:w-max h-2/3">
-        <div class="grid grid-cols-1 gap-5">
-          <!-- Languages -->
-          <div>
-            <h2 class="text-lg font-semibold mb-2">Languages</h2>
-            <div class="flex flex-wrap gap-1">
-              <div class="skill">HTML5</div>
-              <div class="skill">CSS3</div>
-              <div class="skill">JavaScript</div>
+      <section>
+        <div class="md:sticky top-5 p-10 bg-dark w-full md:w-max h-2/3">
+          <div class="grid grid-cols-1 gap-5">
+            <!-- Languages -->
+            <div>
+              <h2 class="text-lg font-semibold mb-2">Languages</h2>
+              <div class="flex flex-wrap gap-1">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+              </div>
             </div>
-          </div>
-          <!-- Frameworks -->
-          <div>
-            <h2 class="text-lg font-semibold mb-2">Frameworks</h2>
-            <div class="flex flex-wrap gap-1">
-              <div class="skill">Vue.js</div>
-              <div class="skill">Nuxt</div>
-              <div class="skill">TailwindCSS</div>
+            <!-- Frameworks -->
+            <div>
+              <h2 class="text-lg font-semibold mb-2">Frameworks</h2>
+              <div class="flex flex-wrap gap-1">
+                <div class="skill">Vue.js</div>
+                <div class="skill">Nuxt</div>
+                <div class="skill">TailwindCSS</div>
+              </div>
             </div>
-          </div>
-          <!-- Version Control -->
-          <div>
-            <h2 class="text-lg font-semibold mb-2">
-              Version Control & Hosting
-            </h2>
-            <div class="flex flex-wrap gap-1">
-              <div class="skill">Git/Github</div>
-              <div class="skill">Github Pages</div>
+            <!-- Version Control -->
+            <div>
+              <h2 class="text-lg font-semibold mb-2">
+                Version Control & Hosting
+              </h2>
+              <div class="flex flex-wrap gap-1">
+                <div class="skill">Git/Github</div>
+                <div class="skill">Github Pages</div>
+              </div>
             </div>
-          </div>
-          <!-- Code Analysis -->
-          <div>
-            <h2 class="text-lg font-semibold mb-2">Linters & Formatters</h2>
-            <div class="flex flex-wrap gap-1">
-              <div class="skill">ESlint</div>
-              <div class="skill">Commitlint</div>
-              <div class="skill">Stylelint</div>
-              <div class="skill">Prettier</div>
+            <!-- Code Analysis -->
+            <div>
+              <h2 class="text-lg font-semibold mb-2">Linters & Formatters</h2>
+              <div class="flex flex-wrap gap-1">
+                <div class="skill">ESlint</div>
+                <div class="skill">Commitlint</div>
+                <div class="skill">Stylelint</div>
+                <div class="skill">Prettier</div>
+              </div>
             </div>
-          </div>
-          <!-- Icons -->
-          <div>
-            <h2 class="text-lg font-semibold mb-2">Icons & Images</h2>
-            <div class="flex flex-wrap gap-1">
-              <div class="skill">Boxicons</div>
-              <div class="skill">Pexels.com</div>
+            <!-- Icons -->
+            <div>
+              <h2 class="text-lg font-semibold mb-2">Icons & Images</h2>
+              <div class="flex flex-wrap gap-1">
+                <div class="skill">Boxicons</div>
+                <div class="skill">Pexels.com</div>
+              </div>
             </div>
           </div>
         </div>
@@ -69,21 +71,41 @@
         class="grid grid-cols-1 justify-left items-left text-left gap-10"
       >
         <!-- Blue Dream -->
-        <div class="flex flex-col gap-3 sm:p-10 p-3 bg-dark">
-          <h2 class="text-2xl font-semibold">Blue Dream</h2>
-          <a href="./blue-dream" class="max-w-max">
-            <img src="~/assets/blue-dream.jpg" width="600" />
-          </a>
-        </div>
+        <Preview
+          :title="'Blue Dream'"
+          :href="'./blue-dream'"
+          :img="require('~/assets/blue-dream.jpg')"
+        />
         <!-- Crypto Design -->
-        <div class="flex flex-col gap-3 sm:p-10 p-3 bg-dark">
-          <h2 class="text-2xl font-semibold">Crypto Design</h2>
-          <a href="./crypto-design" class="max-w-max">
-            <img src="~/assets/crypto-design.jpg" width="600" />
-          </a>
-        </div>
+        <Preview
+          :title="'Crypto Design'"
+          :href="'./crypto-design'"
+          :img="require('~/assets/crypto-design.jpg')"
+        />
       </section>
     </main>
+    <footer
+      class="bg-dark flex flex-col gap-5 justify-center text-white p-10 mt-10"
+    >
+      <div class="flex text-black text-2xl justify-center gap-5">
+        <div class="p-2 w-10 h-10 flex items-center social">
+          <a href="https://www.linkedin.com/in/fletcher-hart-b2006312b/">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+        <div class="p-2 w-10 h-10 flex items-center social">
+          <a href="https://github.com/FletcherHart">
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+        <div class="p-2 w-10 h-10 flex items-center social">
+          <a href="https://twitter.com/TheFailedDev">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center">Copyright © 2021 - Fletcher Hart</div>
+    </footer>
   </div>
 </template>
 
@@ -111,6 +133,10 @@ li {
   padding: 0.4rem;
   border: solid 2px #f76369;
   max-width: max-content;
+}
+
+.social {
+  color: #d1d1c2;
 }
 
 ul {
