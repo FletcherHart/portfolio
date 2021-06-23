@@ -8,9 +8,18 @@
     <div class="flex flex-col items-center my-10">
       <div class="flex flex-col">
         <h2>New Weight (kg)</h2>
-        <input id="newWeight" />
+        <div class="flex">
+          <input id="newWeight" />
+          <button @click="addWeight">Add Maxes</button>
+        </div>
       </div>
-      <button @click="addWeight">Add Maxes</button>
+      <div id="old">
+        <div v-for="(datum, index) in data" :key="index">
+          <input :id="index" :value="datum" />
+          <button @click="upWeek(index)">Update</button>
+          <button @click="delWeek(index)">Delete</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -52,14 +61,21 @@ export default {
       })
     },
     addWeight() {
-      console.log(this.data)
-      console.log(this.labels)
       this.data.push(document.getElementById('newWeight').value)
-      for (let i = 0; i < this.data.length; i++) {
-        this.labels[i] = 'Week ' + i
-      }
+      this.labels.push('Week ' + this.data.length)
+      // for (let i = 0; i < this.data.length; i++) {
+      //   this.labels[i] = 'Week ' + i
+      // }
       this.myChart.update()
-      // this.updateChart()
+    },
+    delWeek(index) {
+      this.data.splice(index, 1)
+      this.labels.pop()
+      this.myChart.update()
+    },
+    upWeek(index) {
+      this.data[index] = document.getElementById(index).value
+      this.myChart.update()
     },
   },
 }
