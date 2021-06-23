@@ -17,7 +17,7 @@
     >
       <section class="xl:w-max xl:block w-full flex justify-center">
         <div class="xl:sticky top-5 p-10 bg-dark w-full md:w-max">
-          <div class="grid xl:grid-cols-1 grid-cols-2 gap-5">
+          <div class="grid xl:grid-cols-1 sm:grid-cols-2 gap-5">
             <!-- Languages -->
             <div>
               <h2 class="text-lg font-semibold mb-2">Languages</h2>

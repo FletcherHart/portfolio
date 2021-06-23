@@ -12,7 +12,7 @@
       ease-in-out
       transform
       hover:-translate-y-1 hover:scale-105
-      w-max
+      max-w-max
     "
   >
     <h2 class="text-2xl font-semibold">{{ title }}</h2>
