@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'crypto-design',
+    title: 'Fletcher Hart Portfolio',
     htmlAttrs: {
       lang: 'en',
     },
