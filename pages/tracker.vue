@@ -1,8 +1,6 @@
 <template>
   <div class="flex flex-col bg-color min-h-screen">
-    <header class="font-bold text-4xl text-center py-10">
-      Progress Visualizer
-    </header>
+    <header class="font-bold text-4xl text-center py-10">Weight Tracker</header>
     <main>
       <client-only>
         <LineChart />

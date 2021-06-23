@@ -82,6 +82,12 @@
           :href="'./crypto-design'"
           :img="require('~/assets/crypto-design.jpg')"
         />
+        <!-- Tracker -->
+        <Preview
+          :title="'Weight Tracker'"
+          :href="'./tracker'"
+          :img="require('~/assets/tracker.jpg')"
+        />
       </section>
     </main>
     <footer
