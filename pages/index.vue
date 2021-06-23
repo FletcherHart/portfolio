@@ -2,22 +2,22 @@
   <div class="bg-home">
     <header class="flex flex-col justify-center items-center p-10 bg-dark">
       <h1 class="text-3xl font-bold text-center">
-        Fletcher Hart Frontend Portfolio
+        Fletcher Hart's Frontend Portfolio
       </h1>
     </header>
     <main
       class="
         flex flex-col
-        md:flex-row-reverse
+        xl:flex-row-reverse
         gap-10
         justify-center
         p-5
         relative
       "
     >
-      <section>
-        <div class="md:sticky top-5 p-10 bg-dark w-full md:w-max h-2/3">
-          <div class="grid grid-cols-1 gap-5">
+      <section class="xl:w-max xl:block w-full flex justify-center">
+        <div class="xl:sticky top-5 p-10 bg-dark w-full md:w-max">
+          <div class="grid xl:grid-cols-1 grid-cols-2 gap-5">
             <!-- Languages -->
             <div>
               <h2 class="text-lg font-semibold mb-2">Languages</h2>
@@ -68,7 +68,13 @@
         </div>
       </section>
       <section
-        class="grid grid-cols-1 justify-left items-left text-left gap-10"
+        class="
+          grid grid-cols-1
+          lg:justify-left
+          place-items-center
+          text-left
+          gap-10
+        "
       >
         <!-- Blue Dream -->
         <Preview
